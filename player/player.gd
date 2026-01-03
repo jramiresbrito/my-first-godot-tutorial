@@ -38,7 +38,7 @@ func attack_state(delta: float) -> void:
 
 
 func roll_state(delta: float) -> void:
-	velocity = last_input_vector * ROLL_SPEED
+	velocity = last_input_vector.normalized() * ROLL_SPEED
 	move_and_slide()
 
 
