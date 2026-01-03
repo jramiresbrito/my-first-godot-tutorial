@@ -481,3 +481,6 @@ parameters/StateMachine/RollState/blend_position = Vector2(0, 0)
 [node name="Camera2D" type="Camera2D" parent="."]
 process_callback = 0
 position_smoothing_enabled = true
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(-6, 13, -5, 6, -7, 6, -7, 3, -5, 1, -7, 1, -7, -11, 6, -11, 6, 1, 4, 1, 6, 3, 6, 6, 4, 6, 5, 13)
